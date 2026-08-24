@@ -1,0 +1,12 @@
+# virtual environment — machine-specific, never commit
+.venv/
+
+# source data — 23.5 MB, redownload from PANGAEA instead
+*.gpkg
+
+# build artefacts and backups
+*.backup
+*.geojson
+coltan_polys.json
+__pycache__/
+.DS_Store
